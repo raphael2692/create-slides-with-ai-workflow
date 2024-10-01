@@ -1,10 +1,7 @@
-[[Topic]]:
+# Slide generation prompt template
 
 ## Topic
-Create a presentation about ...
-
-
-[[Instructions]]:
+Create a presentation about ... **edit this section**
 
 ## Format
 - Use Marp syntax, a specialized Markdown format for presentations.
