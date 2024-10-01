@@ -35,9 +35,9 @@ This project is about **suggesting a workflow** for generating slide content fro
 ## Workflow
 
 1. **Prepare Your Prompt:**
-   - Create a `PROMPT.md` file with the content you want to convert into slides.
+   - Create a prompt by editing the topic section in the `PROMPT.md` file in this repo.
 2. **Generate Slides with LLM:**
-   - Use an LLM to process `PROMPT.md` and generate a `slide-deck.md` file containing the slide content.
+   - Use an LLM to process the custom prompt and generate a clean markdown file (e.g. `slide-deck.md`) containing the slide content.
 3. **Review and Edit:**
    - Open `slide-deck.md` in VS Code with the [Marp VS Code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) to preview and refine the slides.
 4. **Export Slides:**
