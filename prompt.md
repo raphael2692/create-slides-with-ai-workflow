@@ -7,33 +7,21 @@ Create a presentation about ...
 [[Instructions]]:
 
 ## Format
-Use Marp syntax, a specialized Markdown format for presentations.
-A Marp presentation includes front matter (special variables), HTML comments (<!-- -->), and triple dash (---) to separate slides.
+- Use Marp syntax, a specialized Markdown format for presentations.
+- A Marp presentation includes front matter (special variables) and triple dash (---) to separate slides.
 
 ## Structure
-Include a front matter block:
-Set Marp to true.
-Enable pagination.
-Choose a theme (default theme used here).
-Add a header (title of the presentation) and a footer (company name).
-
-## Images
-You can set:
-An image background with ![bg](https://placehold.co/600x400)
-A side image with ![bg left](https://placehold.co/300x400)
+- Include a front matter block:
+- Set Marp to true.
+- Enable pagination.
+- Choose a theme (default theme used here).
+- Add a header (title of the presentation) and a footer (company name).
 
 ## Design Guidelines
-
-Be creative and use color themes that are relevant to the topic>.
 Use images as much as possible, leveraging placeholders from https://placehold.co/.
-Make sure images are sized appropriately for each slide’s layout.
+- An image background with ![bg](https://placehold.co/600x400)
+- A side image with ![bg left](https://placehold.co/300x400) or ![bg right](https://placehold.co/300x400)
 
-
-## Color themes
-
-Use color schemes aligned with the topic.
-Images: Incorporate relevant images using https://placehold.co/ and specify the image resolution for proper fitting.
-Ensure your presentation is visually engaging and communicates the critical aspects of global warming.
 
 ## Marp Syntax Cheatsheet:
 
@@ -48,40 +36,30 @@ footer: Name of the company
 ---
 
 # Presentation title
-Presented by **Name**
+Presented by **Name of presentee**
 
 ---
 
 # Agenda
 
-1. Topic 1
-2. Topic 2
-3. Topic 3
-4. Topic 4
+1. Example 1
+2. Example 2
+3. Example 3
+4. Example 4
 
 ---
 
-<!-- 
-_backgroundImage: "linear-gradient(to bottom, #67b8e3, #0288d1)" 
-_color: white
--->
+# Example 1
+## Example 1 Subtitle
 
-# Topic 1
-## Topic 1 Subtitle
-
-Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa...
+Long text
 
 ---
 
-<!--
-_backgroundColor: black
-_color: white
--->
+# Example 2
+## Example 2 Subtitle
 
-# Topic 2
-## Topic 2 Subtitle
-
-Brief introduction...
+Short text
 
 - Bullet point 1
 - Bullet point 2
@@ -89,21 +67,22 @@ Brief introduction...
 
 ---
 
-# Topic 3
+# Example 3
+## Example 2 Subtitle
 
-Slide with image background
+Short text
 
 ![bg](https://placehold.co/600x400)
 
 ---
 
-# Topic 4
-## Topic 4 Subtitle
+# Example 4
+## Example 4 Subtitle
 
-Lorem Ipsum è un testo segnaposto...
-
+Short text
 ![bg left](https://placehold.co/300x400)
-Additional Instructions:
+
+
 ```
 
 

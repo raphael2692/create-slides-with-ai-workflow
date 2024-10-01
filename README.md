@@ -1,8 +1,111 @@
-# Create slides with AI workflow
+Sure, let me update the README to emphasize that this project is primarily about suggesting a workflow.
 
-1. Pass the PROMPT.md to a LLM
-2. Check the result using Marp VS Code exstension https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
-3. Convert the output to --pdf or --pptx using npm tool: 
+---
 
+# AI Slide Creator: Workflow Guide
 
-https://www.adobe.com/acrobat/online/pdf-to-ppt.html
+Welcome to the **AI Slide Creator** project! This guide provides a streamlined workflow to create professional slide decks effortlessly using Large Language Models (LLMs) and Marp.
+
+## Overview
+
+This project is about **suggesting a workflow** for generating slide content from a text prompt and transforming it into styled slide decks in both PDF and PPTX formats, using the power of AI and Marp.
+
+## Table of Contents
+
+- [AI Slide Creator: Workflow Guide](#ai-slide-creator-workflow-guide)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+  - [Workflow](#workflow)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Usage](#usage)
+  - [Customization](#customization)
+    - [Custom Theme CSS](#custom-theme-css)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Features
+
+- **Prompt-to-Slides Workflow:** A clear step-by-step process for generating slide content from text prompts.
+- **Marp Integration:** Utilize the Marp VS Code extension for slide visualization and editing.
+- **Export Formats:** Suggestions for exporting your slides to PDF and PPTX formats.
+- **Customization Tips:** Guidance on how to customize the appearance of your slides with custom CSS.
+
+## Getting Started
+
+## Workflow
+
+1. **Prepare Your Prompt:**
+   - Create a `PROMPT.md` file with the content you want to convert into slides.
+2. **Generate Slides with LLM:**
+   - Use an LLM to process `PROMPT.md` and generate a `slide-deck.md` file containing the slide content.
+3. **Review and Edit:**
+   - Open `slide-deck.md` in VS Code with the [Marp VS Code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) to preview and refine the slides.
+4. **Export Slides:**
+   - Convert your slide deck to PDF or PPTX using the Marp CLI tool.
+   - (Optional) For an editable PDF, use [Adobe’s online converter](https://www.adobe.com/acrobat/online/pdf-to-ppt.html). Note that the layout may be slightly altered.
+
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- Marp VS Code extension
+
+### Steps
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/ai-slide-creator.git
+    cd ai-slide-creator
+    ```
+
+2. Install Marp CLI:
+    ```sh
+    npm install --save-dev @marp-team/marp-cli
+    ```
+
+## Usage
+
+1. **Generate slides:**
+    ```sh
+    # Pass the PROMPT.md to your favorite LLM and let it generate slide-deck.md
+    ```
+
+2. **Check the result:**
+    - Open `slide-deck.md` in VS Code.
+    - Use the Marp extension to preview the slides.
+
+3. **Convert to PDF or PPTX:**
+    ```sh
+    npx @marp-team/marp-cli@latest slide-deck.md -o output.pdf
+    npx @marp-team/marp-cli@latest slide-deck.md -o output.pptx
+    ```
+
+4. **(Optional) Create an editable PDF:**
+    Use [Adobe’s online converter](https://www.adobe.com/acrobat/online/pdf-to-ppt.html) to transform your PDF into an editable PPTX format. Note that layouts might be slightly altered during this process.
+
+## Customization
+
+### Custom Theme CSS
+
+For additional customization, refer to Marp’s [theme CSS documentation](https://marpit.marp.app/theme-css?id=create-theme-css). You can create your own theme.css file and apply it to your slide deck.
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+This workflow aims to simplify and optimize the process of slide creation using AI and Marp. Should you have any questions, encounter issues, or have suggestions, feel free to open an issue or submit a pull request.
+
+---
+
+Let's make slide creation smarter and more efficient! 🚀
