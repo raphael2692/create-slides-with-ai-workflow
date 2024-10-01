@@ -5,7 +5,7 @@ Create a presentation about ... **edit this section**
 
 ## Format
 - Use Marp syntax, a specialized Markdown format for presentations.
-- A Marp presentation includes front matter (special variables) and triple dash (---) to separate slides.
+- A Marp presentation includes front matter (special variables) and triple dash (---) to separate slides. Last slide has no --- at bottom.
 
 ## Structure
 - Include a front matter block:

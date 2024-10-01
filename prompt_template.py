@@ -2,9 +2,13 @@ prompt_template = """
 ## Topic
 Create a presentation about {topic}.
 
+### Additional content guidelines
+
+Keep in mind that: {additional_guidelines}
+
 ## Format
 - Use Marp syntax, a specialized Markdown format for presentations.
-- A Marp presentation includes front matter (special variables) and triple dash (---) to separate slides.
+- A Marp presentation includes front matter (special variables) and triple dash (---) to separate slides. Last slide has no --- at bottom.
 
 ## Structure
 - Include a front matter block:
