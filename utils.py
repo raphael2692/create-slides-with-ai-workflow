@@ -13,7 +13,7 @@ def generate_marp_deck(topic:str, additional_guidelines:str):
         ("user", prompt_template)
     ])
 
-    llm = ChatOpenAI(api_key=config["OPENAI_API_KEY"], model='gpt-4o-mini')
+    llm = ChatOpenAI(api_key=config["OPENAI_API_KEY"], model='gpt-4o')
 
     output_parser = StrOutputParser()
     chain = prompt | llm | output_parser
