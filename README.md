@@ -17,7 +17,6 @@ This project is about **suggesting a workflow** for generating slide content fro
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Steps](#steps)
-  - [Usage](#usage)
   - [Customization](#customization)
     - [Custom Theme CSS](#custom-theme-css)
   - [Contributing](#contributing)
@@ -41,7 +40,12 @@ This project is about **suggesting a workflow** for generating slide content fro
 3. **Review and Edit:**
    - Open `slide-deck.md` in VS Code with the [Marp VS Code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) to preview and refine the slides.
 4. **Export Slides:**
-   - Convert your slide deck to PDF or PPTX using the Marp CLI tool.
+   - Convert your slide deck to PDF or PPTX using the Marp CLI tool:
+   
+   ```sh
+    npx @marp-team/marp-cli@latest slide-deck.md -o output.pdf
+    npx @marp-team/marp-cli@latest slide-deck.md -o output.pptx
+    ```
    - (Optional) For an editable PDF, use [Adobe’s online converter](https://www.adobe.com/acrobat/online/pdf-to-ppt.html). Note that the layout may be slightly altered.
 
 ## Installation
@@ -63,26 +67,6 @@ This project is about **suggesting a workflow** for generating slide content fro
     ```sh
     npm install --save-dev @marp-team/marp-cli
     ```
-
-## Usage
-
-1. **Generate slides:**
-    ```sh
-    # Pass the PROMPT.md to your favorite LLM and let it generate slide-deck.md
-    ```
-
-2. **Check the result:**
-    - Open `slide-deck.md` in VS Code.
-    - Use the Marp extension to preview the slides.
-
-3. **Convert to PDF or PPTX:**
-    ```sh
-    npx @marp-team/marp-cli@latest slide-deck.md -o output.pdf
-    npx @marp-team/marp-cli@latest slide-deck.md -o output.pptx
-    ```
-
-4. **(Optional) Create an editable PDF:**
-    Use [Adobe’s online converter](https://www.adobe.com/acrobat/online/pdf-to-ppt.html) to transform your PDF into an editable PPTX format. Note that layouts might be slightly altered during this process.
 
 ## Customization
 
