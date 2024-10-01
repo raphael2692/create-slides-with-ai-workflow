@@ -34,7 +34,7 @@ This project is about **suggesting a workflow** for generating slide content fro
 ## Workflow
 
 1. **Prepare Your Prompt:**
-   - Create a prompt by editing the topic section in the `PROMPT.md` file in this repo.
+   - Create a prompt by editing the topic section in the `prompt_template.md` file in this repo.
 2. **Generate Slides with LLM:**
    - Use an LLM to process the custom prompt and generate a clean markdown file (e.g. `slide-deck.md`) containing the slide content.
 3. **Review and Edit:**

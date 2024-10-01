@@ -1,7 +1,6 @@
-# Slide generation prompt template
-
+prompt_template = """
 ## Topic
-Create a presentation about ... **edit this section**
+Create a presentation about {topic}.
 
 ## Format
 - Use Marp syntax, a specialized Markdown format for presentations.
@@ -11,7 +10,7 @@ Create a presentation about ... **edit this section**
 - Include a front matter block:
 - Set Marp to true.
 - Enable pagination.
-- If using a layout with a side image be extremely concise or text will overflow. 
+- If using a layout with a side image be extremely concise or text will overflow.
 
 ## Content Guidelines
 1. **Topic Elaboration**: Provide a clear and concise description of the topic, including specific subtopics to cover.
@@ -23,7 +22,6 @@ Create a presentation about ... **edit this section**
 - Use visual aids to support the topic content, leveraging placeholders from https://placehold.co/.
 - A side image with ![bg left](https://placehold.co/300x400) or ![bg right](https://placehold.co/300x400)
 
-
 ## Marp Syntax Cheatsheet:
 
 ```markdown
@@ -34,7 +32,6 @@ theme: default
 ---
 
 # Presentation title
-Presented by **Name of presentee**
 
 ---
 
@@ -71,8 +68,4 @@ Short text
 Very short text
 
 ![bg left](https://placehold.co/300x400)
-
-
-```
-
-
+"""
