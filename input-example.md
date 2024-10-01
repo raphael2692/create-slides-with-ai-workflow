@@ -1,7 +1,7 @@
 # Slide generation prompt template
 
 ## Topic
-Create a presentation about ... **edit this section**
+Create a presentation about effects of climate change between 2012 and 2020 
 
 ## Format
 - Use Marp syntax, a specialized Markdown format for presentations.
@@ -26,7 +26,7 @@ Create a presentation about ... **edit this section**
 
 ## Marp Syntax Cheatsheet:
 
-```markdown
+markdown
 ---
 marp: true
 paginate: true
@@ -71,8 +71,3 @@ Short text
 Very short text
 
 ![bg left](https://placehold.co/300x400)
-
-
-```
-
-
