@@ -1,7 +1,3 @@
-Sure, let me update the README to emphasize that this project is primarily about suggesting a workflow.
-
----
-
 # AI Slide Creator: Workflow Guide
 
 Welcome to the **AI Slide Creator** project! This guide provides a streamlined workflow to create professional slide decks effortlessly using Large Language Models (LLMs) and Marp.
