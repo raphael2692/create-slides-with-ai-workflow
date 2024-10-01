@@ -14,14 +14,19 @@ Create a presentation about ... **edit this section**
 - Choose a theme (default theme used here).
 - Add a header (title of the presentation) and a footer (company name).
 
+## Content Guidelines
+1. **Topic Elaboration**: Provide a clear and concise description of the topic, including specific subtopics to cover.
+2. **Dynamic Content**: Use a mix of text, bullet points, images, and custom styles to keep the slides engaging.
+3. **Slide Transitions**: Ensure smooth flow between slides by logically connecting topics.
+4. **Examples**: Include real-world or hypothetical examples to illustrate points.
+
 ## Design Guidelines
-Use images as much as possible, leveraging placeholders from https://placehold.co/.
+- Use visual aids to support the topic content, leveraging placeholders from https://placehold.co/.
 - An image background with ![bg](https://placehold.co/600x400)
 - A side image with ![bg left](https://placehold.co/300x400) or ![bg right](https://placehold.co/300x400)
 
 
 ## Marp Syntax Cheatsheet:
-
 
 ```markdown
 ---
